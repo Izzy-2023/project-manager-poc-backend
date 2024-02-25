@@ -14,7 +14,7 @@ app.use(cors());
 
 // Routes
 app.use('/projects', projectsRouter);
-app.use('/taskstasks', tasksRouter);
+app.use('/tasks', tasksRouter);
 
 mongoose.connect('mongodb+srv://izzy-2023:islam1988@cluster0.osvhfet.mongodb.net/projects?retryWrites=true&w=majority', {
 
